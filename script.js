@@ -1,7 +1,1 @@
-const human = {
-  name: Divine,
-  location: {
-    address: '',
-    city: {},
-  },
-};
+// Hello world
