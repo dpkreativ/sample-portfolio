@@ -26,10 +26,18 @@ header ul {
 }
 
 /* Main */
-main section {
+#hero {
   padding: 5rem 0;
 }
 
-main h1 {
+#about,
+#projects,
+#contact {
+  padding: 3rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
+#hero h1 {
   font-size: 4rem;
 }
