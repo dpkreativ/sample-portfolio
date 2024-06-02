@@ -24,3 +24,12 @@ header ul {
   list-style: none;
   gap: 1rem;
 }
+
+/* Main */
+main section {
+  padding: 5rem 0;
+}
+
+main h1 {
+  font-size: 4rem;
+}
