@@ -15,12 +15,20 @@ html {
 /* General */
 .container {
   padding: 1rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  color: red;
 }
 
 /* Header */
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header ul {
@@ -51,17 +59,25 @@ header ul {
   gap: 1rem;
 }
 
+#projects h3 {
+  grid-column: 1/-1;
+}
+
 #projects .project {
-  min-height: 10rem;
+  min-height: 20rem;
   background-color: antiquewhite;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 @media all and (min-width: 480px) {
   #projects article {
     grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  #projects h3 {
-    grid-column: 1/-1;
+@media all and (min-width: 780px) {
+  #projects article {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
